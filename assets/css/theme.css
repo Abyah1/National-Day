@@ -1,1 +1,22 @@
 
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #222;
+}
+:root {
+  --green: #006c35;
+  --green-light: #2fa866;
+  --gold: #c9a635;
+}
+.btn {
+  background: var(--green);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: var(--gold);
+  color: #000;
+}
